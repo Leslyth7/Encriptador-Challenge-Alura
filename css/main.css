@@ -1,0 +1,220 @@
+
+  body {
+	font-size: 14px;
+	font-family: 'Inter';
+	background-color:#F3F5FC; 
+  }
+
+
+  main{
+	width: 80%;
+	display: block;
+	float: none;
+	margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+	main{
+		width: 100%;}
+  }
+  
+  .__nav__logo img{
+ width: 120px;
+ height: 48px;
+ top: 40px;
+ left: 40px;
+ position: absolute;
+  }
+  .__message img{
+	display: inline-block;
+	float: left;
+	margin-top: 12vh;
+	/* margin-top: 243px; */
+	
+    /* margin-top: 28%; */
+  } 
+
+  .__message button{
+	width: 80%;
+    box-sizing: border-box;
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+  }
+
+  .__col1{
+	padding: 0 40px;
+	width: calc(68.22% - 80px);
+	/*1440*/
+	overflow: hidden;
+
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.__col1 {
+	  /* Aquí puedes añadir los estilos que deseas aplicar cuando la pantalla es de 768px o menos */
+	  padding: 0 20px;
+	  width:100%;
+	  
+	  box-sizing: content-box
+	}
+  }
+  
+  .__col2{
+	width: 27.78%;
+		/* 400px */
+
+	height: 944px;
+
+	/* White */
+
+	background: #FFFFFF;
+	/* shadow */
+
+    box-sizing: border-box;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+
+	max-height: 82vh;
+    padding-top: 23px;
+    margin-top: 84px;
+
+  }
+  @media screen and (max-width: 768px) {
+	.__col2 {
+		height: calc(439px + 50vh);
+		min-height: calc(439px + 50vh);
+	  width:100%;
+	  
+	}
+  }
+  
+  .__col2 img{
+	
+    width: 100%;
+    box-sizing: border-box;
+	padding: 20px;
+  }
+  .__message h1{
+	
+    width: 100%;
+    box-sizing: border-box;
+	font-weight: 700;
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+  }
+  .__message p{
+	max-width: 90%;
+	text-align: center;
+	font-weight: 400;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 150%;
+	overflow-wrap: break-word;
+	word-break: break-word;
+  }
+  .__message p.enc{
+  font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%
+ }
+  .__col1,  .__col2{
+	float: left;
+display: block;
+
+}
+textarea{
+	margin-top: 168px;
+	
+	border: 0px ;
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	height: 80vh;
+	max-height:600px;
+
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+	
+}
+textarea:focus,textarea:active {
+    border: none;
+	outline: none;
+}
+.__message__textarea{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.__message__textarea img{
+float: left;
+margin-right: 10px;
+display: inline-block;
+}
+.__buttons{
+	width: 80%;
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-top: 21px;
+
+}
+
+@media screen and (max-width: 768px) {
+	.__buttons {
+
+		width: 100%;
+	}
+  }
+button{
+
+/* Auto layout */
+
+display: block;
+float: left;
+padding: 24px;
+width: 40%;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+color: #0A3871;
+
+}
+button:nth-child(1){
+	margin-right: 25px;
+}
+button:nth-child(2){
+	float: right;
+}
+
+button:hover,button:active{
+
+/* Dark blue/dark-blue-300 */
+color: #FFFFFF;
+
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
